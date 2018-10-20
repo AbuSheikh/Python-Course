@@ -4,7 +4,7 @@
 # In[2]:
 
 
-x=float (input ("If you want to translate for celsius please enter 1 and If you want to translate for fahrenheit please enter 0 : "))
+x= int (input ("If you want to translate for celsius please enter 1 and If you want to translate for fahrenheit please enter 0 : "))
 if x==0 : 
     celsius = float (input ("Enter the  temperatures degree in celsius "))
     fahrenheit = (celsius * 1.8) + 32
